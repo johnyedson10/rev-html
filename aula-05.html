@@ -15,16 +15,18 @@
                largura (width) e a altura (height) de um elemento são calculadas no CSS */
         }
 
-        .Topo3 {
+        .nav .Topo3 {
 
-            padding-top: 0;
+            width: 100%;
             display: flex;
-            gap: 0;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 15px 0;
             background-color: white;
-            text-align: center;
-            margin-left: 230px;
             color: rgb(74, 87, 81);
             font-family: sans-serif;
+
 
         }
     </style>
@@ -82,25 +84,38 @@
         .nav .topo2 {
             padding: top 10px;
             display: flex;
-            gap: 46px;
+            gap: 20px;
             background-color: rgb(174, 169, 173);
             height: 39px;
             font-family: sans-serif;
             margin-top: 2px;
             color: white;
+
+            justify-content: center;
+            align-items: center;
+
         }
     </style>
 
     <style>
-        *** {
-
+        body {
             margin: 0;
             padding: 0;
         }
 
-        .nav .banner {
 
-            margin-left: 36px;
+        *** {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav .banner {
+            max-width: 1299px;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
 
         }
     </style>
@@ -108,7 +123,7 @@
 </head>
 
 <body>
-
+    <nav class="nav">
     <div class="Topo3">
         <div class="texto">
             <h1>Nesse São João temos até 30% de desconto! Aproveite!</h1>
